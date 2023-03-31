@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+header img{
+    width: 130px;
+}
+
+body{
+   color: #393d41;
+   font-size: 1.2rem;
+   font-family: 'Open Sans', sans-serif;
+   line-height: 1.65rem;
+   min-width: 500px;
+}
+
+h1,h2,h3{
+    color: #25a2c3;
+    font-family: 'Montserrat';
+    line-height: 1.5rem;
+}
+
+button{
+    color: #f04c2f;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1em;
+    margin: 10px;
+}
+
+#first-img{
+    background-image: url(/images/banner.jpg);
+    padding: 4em;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+#sec-img{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+     
+}
+
+#sec-img div{
+
+    width: 100%;
+}
+
+.sec-img{
+    margin: 1.5em;
+}
+
+.ter-elem{
+    text-align: center;
+    background-color: red;
+    color: white;
+    
+}
+
+.ter-elem h3{
+    color: white;
+}
+
+.ter-elem h3,blockquote,cite{
+    margin: 5px;
+}
+
+
+aside{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+aside img,h3,p{
+    margin: 10px;
+    padding: 10px;
+}
+
+aside div{
+    border: 2px solid #dee1e3;
+    margin: 10px;
+}
+
+aside h3,cite{
+    text-align: center;
+
+}
+
+footer{
+    margin-top: 50px;
+    
+    text-align: center;
+    padding: 2em;
+    
+}
+}
+
+footer h2{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+  
+
+}
+
+footer div{
+    text-align: start;
+    padding-left: 25%;
+    padding-right: 25%;
+    flex-direction: column;
+    display: flex;
+    border-bottom: 2px solid white;
+    padding-bottom: 1em;
+}
+
+#footer {
+    background-color: #25a2c3;
+    text-align: center;
+    padding: 1em;
+}
+
+#footer h2{
+    color: white;
+    font-size: 2em;
+    padding-top: 1.5em;
+}
+
+.notebook{
+    border-radius: 100%;
+}
+
+
+
+
+
+
